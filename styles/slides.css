@@ -57,8 +57,12 @@ h1.mainTitle > span:nth-child(4n + 4) {
 .slideContent .video {
   max-height: 25vh;
 }
-.slideContent .video--big {
+.slideContent .video--big,
+.slideContent .img--big {
   max-height: 50vh;
+}
+.slideContent img:not(:first-child) {
+  margin-left: 1vw
 }
 .video--turnt {
   max-width: 25vh;
